@@ -124,7 +124,7 @@
             listContainer.innerHTML = '<div class="loading-list">🔄 Đang gọi GitHub API...</div>';
             
             // Đường dẫn API lấy nội dung thư mục
-            const apiUrl = `https://api.github.com/repos/${GITHUB_USERNAME}/${GITHUB_REPO}/contents/${FOLDER_PATH}`;
+            const apiUrl = `https://api.github.com/repos/DamKhanh307/NES-EMU/contents/NES`;
 
             try {
                 const response = await fetch(apiUrl);
